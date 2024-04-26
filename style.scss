@@ -22,9 +22,7 @@
     height: 10vh;
     width: 100%;
    color: white;
-p:hover{
-font-size: 48px;
-}
+
    .links{
     font-family: "coco", Montserrat;
     color: white;
@@ -104,6 +102,7 @@ img{
 
 }
 .portfolio{
+    
     h2{
         display: flex;
         justify-content: center;
@@ -111,7 +110,7 @@ img{
     }
 
     .row{
-        margin: 80px;
+        margin: 5px;
         margin-top: 2px;
         margin-bottom: 30px;
     }
@@ -149,7 +148,7 @@ img{
     }
 
     img{
-        height: 40vh;
+        height: 37vh;
     }
     .pot-head{
         margin-top: 50px;
@@ -260,7 +259,7 @@ hr{
 }
 .con{
     font-family: "coco", Montserrat;
-    margin-left: 410px;
+    margin-left: 28px;
     // padding: 10%;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -310,7 +309,33 @@ hr{
     
  }
 
+
 }
+// .img-grid1 {
+//     margin-left: -85px;
+// }
+// // .img-grid2{
+// //     margin-right: 90px;
+// // }
+// .img-grid3 {
+//     padding-left: 82px;
+// }
+// .img-grid4{
+//     margin-left: -85px;
+// }
+// // .img-grid5 {
+// //     margin-left: 90px;
+// // }
+// .img-grid6 {
+//     padding-left: 90px;
+// }
+
+// .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     max-width: 60%;
+//     margin-left: 40px;
+// }
 
 
 .copyright{
@@ -323,9 +348,10 @@ hr{
 } 
 
 
- @media(max-width:360px){
+ @media(max-width:576px){
+
     .navigation{
-        width: 260%;
+        width: 98%;
         font-size: 20;
         .para1{
             margin-top: 10px;
@@ -333,10 +359,11 @@ hr{
 
         .navbar{
             margin-left: 80px;
+            display: none;
         }
     }
     .banner{
-        width: 260%;
+        width: 98%;
 
         .text{
             font-size: 20px;
@@ -347,188 +374,91 @@ hr{
         }
      }
 
-     .portfolio{
-        overflow: hidden;
-    //  .sicon2{
-    // // text-align: center;
-    // // margin-left: 00px;
-    //  }
-
-    .row{
-   max-width: 100%;
-        display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0px;
-   }
-   
+    
+#myNav{
+    .closebtn{
+        position: absolute;
+        top: -21px;
+        right: -8px;
+    }
 }
 
-.about{
-    overflow: hidden;
-    width: 260%;
-    // display: flex;
 
-    // .row{
-    //     display: flex;
-    // }
-    .about{
-        .row{
-            .col-md-6{
-                padding: 0px;
-            }
+.banner{
+    .bannerimage{
+        margin-bottom: -69PX;
+        margin-top: 0PX;
+    }
+}
+span{
+display: flex;
+}
+.portfolio{
+.row{
+margin: 0px;
+}
+
+.container{
+    padding: 0px 0px 0px 0px;
+}
+
            
         }
-        // .para3{
-        //     margin: 0px;
-        //     padding: 20px;
-        // }
-        // .para2{
-        //     margin: 0px;
-        //     padding: 20px; 
-        // }
-    }
- 
-}   
-
- }
- @media screen and (min-width:576px){
-  
- }
-//  @media (max-width:920px){
-//   .navigation{
-//     span{
-//         display: none;
-//     }
-//   }
-//  }
-// @media (min-width:993px) {
-//     .navigation{
-// span{
-//     display: none;
-// }
-//     }
-        
-//     }
-
- @media screen and (max-width:576px){
-
-    #myNav{
-        .closebtn{
-            position: absolute;
-            top: -21px;
-            right: -8px;
-        }
-    }
-
-
-    .banner{
-        .bannerimage{
-            margin-bottom: -69PX;
-            margin-top: 0PX;
-        }
-    }
-   span{
-    display: flex;
-   }
-   .portfolio{
-   
-    IMG{
-        display: flex;
-        align-items: center;justify-content: center;
-        margin-left: -69px;
-        height: 31vh;
-        flex-direction: row;
-    }
-    .row{
-        // margin-top: 30px;
-        margin: 0px;
-        margin-left: 90px;
-    }
-    // .keke{
-    //     display: none;
-    // }
-    // .nene{
-    //     display: none;
-    // }
-    // .meme{
-    //     display: none;
-    // }
-    // .pure{
-    //     display: none;
-    // }
-    
-    
-    
-   } 
-   .navigation{
-    overflow: hidden;
-    .navbar{
-        display: none;
-    }
-    span{
-        margin-left: 100px;
-        // display: none;
+        .about{
+            .row{
+                .col-md-6{
+                    padding: 0px 0px 0px 0px;
                 }
-   }
 
-   .contact{
-    overflow: hidden;
-hr{
-    width: 300px;
+                margin-left: 60px;
+            }
+            .para2{
+                margin: 0px;
+                font-size: 10px;
+            }
+            .para3{
+                font-size: 10px;
+                margin: 0px;
+
+            }
+            // overflow: hidden;
+            margin-top: 30px;
+            width: 98%;
+            
+            // display: flex;
+        
+            // .row{
+            //     display: flex;
+            // }
+        
+
 }
-    .con{
-
-        margin-left: 45px;
-    }
-   }
-   .footer{
-    
-    overflow: hidden;
-    .ico{
-        position: relative;
-        right: 19px;
-    }
+.footer{
+    margin: 0px;
     .all{
-        .mt-5{
-            margin-top: -7rem 
-        }
-        margin: 0px;
-        padding: 83px;
-        // margin-left: 58px;
-        h3{
-            font-size: 20px;
-        }
-        // padding: 0px;
-        // margin: 0px;
+margin: 10px;
+
     }
-   }
-   .about{
-  
-    margin-top: 30px;
-    .para3{
-        padding-left: 32px;
-        padding-right: 8px;
-        padding-top: 9px;
-        margin: 0px;
-      
+    width: 98%;
+}
+ .contact{
+    .kiki{
+        margin-top: 20px;
+        margin-left: -60px;
     }
-    .para2{
-        padding-left: 32px;
-        padding-right: 8px;
-        padding-bottom: 9px;
+    .contact-head{
         margin: 0px;
-        padding-top: 9px;
     }
-   }
-  
+    .con{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    hr{
+        width: 300px;
+    }
  }
- 
-// @media screen and (max-width:1990px) {
-//     span{
-//         display: none;
-//     }
-// }
+}
 
  @media only screen and (min-width:600px) and (max-width:768px) {
   
@@ -578,8 +508,7 @@ hr{
 .footer{
   
     .all{
-        margin: 0px;
-        padding: 0px;
+
         h3{
             font-size: 16px;
         }
@@ -657,27 +586,27 @@ hr{
   font-size: 60px;
 }
 
-@media screen and (max-height: 576px) {
-    .ico{
-        position: relative;
-        right: 35px;
-    }
-    span{
-        display: flex;
-    }
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-  .navigation{
+// @media screen and (max-height: 576px) {
+//     .ico{
+//         position: relative;
+//         right: 35px;
+//     }
+//     span{
+//         display: flex;
+//     }
+//   .overlay a {font-size: 20px}
+//   .overlay .closebtn {
+//   font-size: 40px;
+//   top: 15px;
+//   right: 35px;
+//   }
+//   .navigation{
 
-        .overlay{
-            width: 72%;
-          }
-      }
-  }
+//         .overlay{
+//             width: 72%;
+//           }
+//       }
+//   }
   @media screen and (min-width:912px) and (max-width:1024px) {
   #myNav{
     .overlay{
