@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: coco;
+    src: url(Montserrat-Regular.ttf);
+}
+
+
+.navigation{
+   
+    font-family: "coco", Montserrat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgba(11, 11, 14, 0.89);
+    height: 10vh;
+    width: 100%;
+   color: white;
+p:hover{
+font-size: 48px;
+}
+   .links{
+    font-family: "coco", Montserrat;
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+
+
+}
+ 
+
+.banner{
+    background-color:#1BBC9B;
+    padding-bottom:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+  
+  
+    
+    .sline1{
+        width: 70px;
+        border: 2px solid  white;
+        margin-right: 10px;
+        
+    }
+
+    span{
+        display: inline-block;
+
+    }
+    sicon{
+        display: flex;
+    }
+    .sline2{
+        width: 70px;
+        border:2px solid white ;
+        margin-left: 10px;
+
+    }
+
+    
+    .bannerimage{
+       margin-top: 60px;
+        height: 30vh;
+        width: 30%;
+    }
+
+.para1{
+    font-family: "coco", Montserrat;
+    margin: 20px;
+
+}
+.head{
+    font-family: "coco", Montserrat;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+.text{
+    font-family: "coco", Montserrat;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+img{
+    height: 30vh;
+    width: 30%;
+    margin: 20px;
+}
+
+}
+.portfolio{
+    h2{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .row{
+        margin: 80px;
+        margin-top: 2px;
+        margin-bottom: 30px;
+    }
+
+    .both{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .sline3{
+        width: 70px;
+        border: 2px solid  black;
+        margin-right: 10px;
+        
+    }
+
+    span{
+        display: inline-block;
+
+    }
+    .sicon{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+
+
+    }
+    .sline4{
+        width: 70px;
+        border:2px solid black ;
+        margin-left: 10px;
+
+    }
+
+    img{
+        height: 40vh;
+    }
+    .pot-head{
+        margin-top: 50px;
+    }
+    
+}
+.about{
+   background-color: #1BBC9B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    .sline5{
+        width: 70px;
+        border: 2px solid white;
+        margin-right: 10px;
+        height: 2px;
+        
+    }
+
+    span{
+        display: inline-block;
+        
+
+    }
+    .sell{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+
+
+    }
+    .sline6{
+        width: 70px;
+        border:2px solid white ;
+        margin-left: 10px;
+        height: 2px;
+
+    }
+
+    .para2{
+        font-family: "coco", Montserrat;
+         margin: 20px;
+        
+
+    }
+    .para3{
+        font-family: "coco", Montserrat;
+        width: 100%;
+        margin: 20px;
+    }
+
+    .about-head{
+        font-family: "coco", Montserrat;
+        margin-top: 50px;
+    }
+    
+    .btn{
+        font-family: "coco", Montserrat;
+        border: 2px solid white;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+}
+.contact{
+   
+    h2{
+        font-family: "coco", Montserrat;
+    text-align: center;
+    margin-top: 50px;
+   }
+   .sline1{
+    width: 70px;
+    border: 2px solid black;
+    margin-right: 10px;
+    height: 2px;
+    
+}
+
+span{
+    display: inline-block;
+
+}
+.mojicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+
+
+}
+.sline2{
+    width: 70px;
+    border:2px solid black ;
+    margin-left: 10px;
+    height: 2px;
+
+}
+
+
+   
+hr{
+    width: 500px;
+}
+.con{
+    font-family: "coco", Montserrat;
+    margin-left: 410px;
+    // padding: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.line{
+    margin-top: 100px;
+}
+}
+
+.footer{
+    background-color: rgb(21, 21, 26);
+    color: white;
+    .ico{
+        margin-top: 5px;
+        margin-left: -17px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .all{
+        margin: 90px;
+        margin-bottom: 2px;
+        padding-left: 40px;
+    }
+
+    .bot{
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 20px;
+        margin: 2px;
+        margin-top: 2px;
+
+    }
+
+    // .loola{
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     flex-direction: row;
+    // }
+ .texting{
+    margin-top: 2px;
+ }
+ .col-md-4{
+    margin-top: 50px;
+    
+ }
+
+}
+
+
+.copyright{
+    font-family: "coco", Montserrat;
+    background-color: rgba(9, 9, 12, 0.89);
+    color: white;
+    font-weight: normal;
+    font-size: small;
+
+} 
+
+
+ @media(max-width:360px){
+    .navigation{
+        width: 260%;
+        font-size: 20;
+        .para1{
+            margin-top: 10px;
+        }
+
+        .navbar{
+            margin-left: 80px;
+        }
+    }
+    .banner{
+        width: 260%;
+
+        .text{
+            font-size: 20px;
+        }
+
+        .head{
+            font-size: 30px;
+        }
+     }
+
+     .portfolio{
+        overflow: hidden;
+    //  .sicon2{
+    // // text-align: center;
+    // // margin-left: 00px;
+    //  }
+
+    .row{
+   max-width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px;
+   }
+   
+}
+
+.about{
+    overflow: hidden;
+    width: 260%;
+    // display: flex;
+
+    // .row{
+    //     display: flex;
+    // }
+    .about{
+        .row{
+            .col-md-6{
+                padding: 0px;
+            }
+           
+        }
+        // .para3{
+        //     margin: 0px;
+        //     padding: 20px;
+        // }
+        // .para2{
+        //     margin: 0px;
+        //     padding: 20px; 
+        // }
+    }
+ 
+}   
+
+ }
+ @media screen and (min-width:576px){
+  
+ }
+//  @media (max-width:920px){
+//   .navigation{
+//     span{
+//         display: none;
+//     }
+//   }
+//  }
+// @media (min-width:993px) {
+//     .navigation{
+// span{
+//     display: none;
+// }
+//     }
+        
+//     }
+
+ @media screen and (max-width:576px){
+
+    #myNav{
+        .closebtn{
+            position: absolute;
+            top: -21px;
+            right: -8px;
+        }
+    }
+
+
+    .banner{
+        .bannerimage{
+            margin-bottom: -69PX;
+            margin-top: 0PX;
+        }
+    }
+   span{
+    display: flex;
+   }
+   .portfolio{
+   
+    IMG{
+        display: flex;
+        align-items: center;justify-content: center;
+        margin-left: -69px;
+        height: 31vh;
+        flex-direction: row;
+    }
+    .row{
+        // margin-top: 30px;
+        margin: 0px;
+        margin-left: 90px;
+    }
+    // .keke{
+    //     display: none;
+    // }
+    // .nene{
+    //     display: none;
+    // }
+    // .meme{
+    //     display: none;
+    // }
+    // .pure{
+    //     display: none;
+    // }
+    
+    
+    
+   } 
+   .navigation{
+    overflow: hidden;
+    .navbar{
+        display: none;
+    }
+    span{
+        margin-left: 100px;
+        // display: none;
+                }
+   }
+
+   .contact{
+    overflow: hidden;
+hr{
+    width: 300px;
+}
+    .con{
+
+        margin-left: 45px;
+    }
+   }
+   .footer{
+    
+    overflow: hidden;
+    .ico{
+        position: relative;
+        right: 19px;
+    }
+    .all{
+        .mt-5{
+            margin-top: -7rem 
+        }
+        margin: 0px;
+        padding: 83px;
+        // margin-left: 58px;
+        h3{
+            font-size: 20px;
+        }
+        // padding: 0px;
+        // margin: 0px;
+    }
+   }
+   .about{
+  
+    margin-top: 30px;
+    .para3{
+        padding-left: 32px;
+        padding-right: 8px;
+        padding-top: 9px;
+        margin: 0px;
+      
+    }
+    .para2{
+        padding-left: 32px;
+        padding-right: 8px;
+        padding-bottom: 9px;
+        margin: 0px;
+        padding-top: 9px;
+    }
+   }
+  
+ }
+ 
+// @media screen and (max-width:1990px) {
+//     span{
+//         display: none;
+//     }
+// }
+
+ @media only screen and (min-width:600px) and (max-width:768px) {
+  
+   
+    .about{
+    .para3{
+        padding: 20px;
+        margin: 0px;
+    }
+
+   }
+   
+   
+   
+    .portfolio{
+        IMG{
+            // margin-left: -69px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 11vh;
+            
+        }
+        // .keke{
+        //     display: none;
+        // }
+        // .nene{
+        //     display: none;
+        // }
+        // .meme{
+        //     display: none;
+        // }
+        // .pure{
+        //     display: none;
+        // }
+ }
+ .contact{
+
+    .con{
+
+        margin-left: 145px;
+    }
+
+   }
+
+.footer{
+  
+    .all{
+        margin: 0px;
+        padding: 0px;
+        h3{
+            font-size: 16px;
+        }
+        margin-left: 44px;
+        margin-right: 44px;
+    }
+    .lolo{
+        padding-left: 3px;
+    }
+    .lala{
+        padding-right: 15px;
+        position: relative;
+        left: 40px;
+    }
+    .ico{
+        position: relative;
+        right: 51px;
+    }
+}
+.navigation{
+    .navbar{
+        display: none;
+    }
+    .lies{
+        position: relative;
+        left: 133px;
+    } 
+}
+
+
+}
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow: hidden;
+  transition: 0.5s;
+  
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 576px) {
+    .ico{
+        position: relative;
+        right: 35px;
+    }
+    span{
+        display: flex;
+    }
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+  .navigation{
+
+        .overlay{
+            width: 72%;
+          }
+      }
+  }
+  @media screen and (min-width:912px) and (max-width:1024px) {
+  #myNav{
+    .overlay{
+
+        width: 88%;
+    }
+  }
+    .navigation{
+        .navbar{
+            display: none;
+        }
+        span{
+margin-right: -254px;
+        }
+    
+  }
+
+  .portfolio{
+    img{
+        height: 11vh;
+    }
+    .row{
+        
+        display: flex;
+        // margin: -605px;
+        margin-top: 10px;
+        // flex-direction: column;
+        align-items: center;
+        // justify-content: start;
+    }
+    // .keke{
+    //     display: none;
+    // }
+    // .meme{
+    //     display: none;
+    // }
+    // .pure{
+    //     display: none;
+    // }
+   
+ 
+  }
+  .footer{
+    margin-top: -60px;
+    height: 20vh;
+    width: 100%;
+    .all{
+        h3{
+        font-size:16px ;
+    }
+  }
+
+  }
+//   .water{
+//     img{
+//         display: none;
+//     }
+// }
+// }
+// }
+// .nene{
+//     img{
+//         margin-top: 582px;
+//          margin-left: -597px;
+//     }
+// }
+#contact{
+    .con{
+        margin-left: 274px;
+    }  
+}
+
+
+  }
+  
+  @media (min-width:1025px) {
+    .lies{
+        display: none;
+    }
+  }

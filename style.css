@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: coco;
+  src: url(Montserrat-Regular.ttf);
+}
+.navigation {
+  font-family: "coco", Montserrat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(11, 11, 14, 0.89);
+  height: 10vh;
+  width: 100%;
+  color: white;
+}
+.navigation p:hover {
+  font-size: 48px;
+}
+.navigation .links {
+  font-family: "coco", Montserrat;
+  color: white;
+  text-decoration: none;
+  margin-right: 60px;
+}
+
+.banner {
+  background-color: #1BBC9B;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner .sline1 {
+  width: 70px;
+  border: 2px solid white;
+  margin-right: 10px;
+}
+.banner span {
+  display: inline-block;
+}
+.banner sicon {
+  display: flex;
+}
+.banner .sline2 {
+  width: 70px;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+.banner .bannerimage {
+  margin-top: 60px;
+  height: 30vh;
+  width: 30%;
+}
+.banner .para1 {
+  font-family: "coco", Montserrat;
+  margin: 20px;
+}
+.banner .head {
+  font-family: "coco", Montserrat;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+}
+.banner .text {
+  font-family: "coco", Montserrat;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.banner img {
+  height: 30vh;
+  width: 30%;
+  margin: 20px;
+}
+
+.portfolio h2 {
+  display: flex;
+  justify-content: center;
+}
+.portfolio .row {
+  margin: 80px;
+  margin-top: 2px;
+  margin-bottom: 30px;
+}
+.portfolio .both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio .sline3 {
+  width: 70px;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+.portfolio span {
+  display: inline-block;
+}
+.portfolio .sicon {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+.portfolio .sline4 {
+  width: 70px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
+.portfolio img {
+  height: 40vh;
+}
+.portfolio .pot-head {
+  margin-top: 50px;
+}
+
+.about {
+  background-color: #1BBC9B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.about .sline5 {
+  width: 70px;
+  border: 2px solid white;
+  margin-right: 10px;
+  height: 2px;
+}
+.about span {
+  display: inline-block;
+}
+.about .sell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+.about .sline6 {
+  width: 70px;
+  border: 2px solid white;
+  margin-left: 10px;
+  height: 2px;
+}
+.about .para2 {
+  font-family: "coco", Montserrat;
+  margin: 20px;
+}
+.about .para3 {
+  font-family: "coco", Montserrat;
+  width: 100%;
+  margin: 20px;
+}
+.about .about-head {
+  font-family: "coco", Montserrat;
+  margin-top: 50px;
+}
+.about .btn {
+  font-family: "coco", Montserrat;
+  border: 2px solid white;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact h2 {
+  font-family: "coco", Montserrat;
+  text-align: center;
+  margin-top: 50px;
+}
+.contact .sline1 {
+  width: 70px;
+  border: 2px solid black;
+  margin-right: 10px;
+  height: 2px;
+}
+.contact span {
+  display: inline-block;
+}
+.contact .mojicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+.contact .sline2 {
+  width: 70px;
+  border: 2px solid black;
+  margin-left: 10px;
+  height: 2px;
+}
+.contact hr {
+  width: 500px;
+}
+.contact .con {
+  font-family: "coco", Montserrat;
+  margin-left: 410px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.contact .line {
+  margin-top: 100px;
+}
+
+.footer {
+  background-color: rgb(21, 21, 26);
+  color: white;
+}
+.footer .ico {
+  margin-top: 5px;
+  margin-left: -17px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.footer .all {
+  margin: 90px;
+  margin-bottom: 2px;
+  padding-left: 40px;
+}
+.footer .bot {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 2px;
+  margin-top: 2px;
+}
+.footer .texting {
+  margin-top: 2px;
+}
+.footer .col-md-4 {
+  margin-top: 50px;
+}
+
+.copyright {
+  font-family: "coco", Montserrat;
+  background-color: rgba(9, 9, 12, 0.89);
+  color: white;
+  font-weight: normal;
+  font-size: small;
+}
+
+@media (max-width: 360px) {
+  .navigation {
+    width: 260%;
+    font-size: 20;
+  }
+  .navigation .para1 {
+    margin-top: 10px;
+  }
+  .navigation .navbar {
+    margin-left: 80px;
+  }
+  .banner {
+    width: 260%;
+  }
+  .banner .text {
+    font-size: 20px;
+  }
+  .banner .head {
+    font-size: 30px;
+  }
+  .portfolio {
+    overflow: hidden;
+  }
+  .portfolio .row {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px;
+  }
+  .about {
+    overflow: hidden;
+    width: 260%;
+  }
+  .about .about .row .col-md-6 {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #myNav .closebtn {
+    position: absolute;
+    top: -21px;
+    right: -8px;
+  }
+  .banner .bannerimage {
+    margin-bottom: -69PX;
+    margin-top: 0PX;
+  }
+  span {
+    display: flex;
+  }
+  .portfolio IMG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -69px;
+    height: 31vh;
+    flex-direction: row;
+  }
+  .portfolio .row {
+    margin: 0px;
+    margin-left: 90px;
+  }
+  .navigation {
+    overflow: hidden;
+  }
+  .navigation .navbar {
+    display: none;
+  }
+  .navigation span {
+    margin-left: 100px;
+  }
+  .contact {
+    overflow: hidden;
+  }
+  .contact hr {
+    width: 300px;
+  }
+  .contact .con {
+    margin-left: 45px;
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .footer .ico {
+    position: relative;
+    right: 19px;
+  }
+  .footer .all {
+    margin: 0px;
+    padding: 83px;
+  }
+  .footer .all .mt-5 {
+    margin-top: -7rem;
+  }
+  .footer .all h3 {
+    font-size: 20px;
+  }
+  .about {
+    margin-top: 30px;
+  }
+  .about .para3 {
+    padding-left: 32px;
+    padding-right: 8px;
+    padding-top: 9px;
+    margin: 0px;
+  }
+  .about .para2 {
+    padding-left: 32px;
+    padding-right: 8px;
+    padding-bottom: 9px;
+    margin: 0px;
+    padding-top: 9px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .about .para3 {
+    padding: 20px;
+    margin: 0px;
+  }
+  .portfolio IMG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 11vh;
+  }
+  .contact .con {
+    margin-left: 145px;
+  }
+  .footer .all {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+  .footer .all h3 {
+    font-size: 16px;
+  }
+  .footer .lolo {
+    padding-left: 3px;
+  }
+  .footer .lala {
+    padding-right: 15px;
+    position: relative;
+    left: 40px;
+  }
+  .footer .ico {
+    position: relative;
+    right: 51px;
+  }
+  .navigation .navbar {
+    display: none;
+  }
+  .navigation .lies {
+    position: relative;
+    left: 133px;
+  }
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 576px) {
+  .ico {
+    position: relative;
+    right: 35px;
+  }
+  span {
+    display: flex;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  .navigation .overlay {
+    width: 72%;
+  }
+}
+@media screen and (min-width: 912px) and (max-width: 1024px) {
+  #myNav .overlay {
+    width: 88%;
+  }
+  .navigation .navbar {
+    display: none;
+  }
+  .navigation span {
+    margin-right: -254px;
+  }
+  .portfolio img {
+    height: 11vh;
+  }
+  .portfolio .row {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  .footer {
+    margin-top: -60px;
+    height: 20vh;
+    width: 100%;
+  }
+  .footer .all h3 {
+    font-size: 16px;
+  }
+  #contact .con {
+    margin-left: 274px;
+  }
+}
+@media (min-width: 1025px) {
+  .lies {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
