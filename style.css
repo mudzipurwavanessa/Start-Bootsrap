@@ -243,6 +243,24 @@
 }
 
 @media (max-width: 576px) {
+  .img-grid1 {
+    padding: 0px;
+  }
+  .img-grid2 {
+    padding: 0px;
+  }
+  .img-grid3 {
+    padding: 0px;
+  }
+  .img-grid4 {
+    padding: 0px;
+  }
+  .img-grid5 {
+    padding: 0px;
+  }
+  .img-grid6 {
+    padding: 0px;
+  }
   .navigation {
     width: 98%;
     font-size: 20;
@@ -274,6 +292,11 @@
   }
   span {
     display: flex;
+  }
+  .portfolio img {
+    height: 30vh;
+    margin-left: 40px;
+    padding: 0px 0px 0px 0px;
   }
   .portfolio .row {
     margin: 0px;
