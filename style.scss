@@ -352,6 +352,9 @@ color: #000;
 
 
  @media(max-width:576px){
+    // overflow-x:hidden
+
+
     .lies{
         margin-left: 111px;
     }
@@ -419,8 +422,8 @@ display: flex;
 }
 .portfolio{
     img{
-        height: 24vh;
-        margin-left: 66px;
+        height: 29vh;
+        margin-left: 55px;
         padding: 0px 0px 0px 0px;
     }
 .row{
@@ -471,6 +474,9 @@ margin: 0px;
     margin: 0px;
     .all{
 margin: 4px;
+.lolo{
+    margin-left: 10px;
+}
 
     }
     width: 98%;
