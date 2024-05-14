@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-
+.fa-star:before {
+    content: "\f005";
+    font-size: 34px;
+}
 
 @font-face {
     font-family: coco;
@@ -472,8 +475,11 @@ margin: 0px;
 }
 }
 .footer{
+  
     margin: 0px;
     .all{
+
+        
 margin: 4px;
 .lolo{
     margin-left: 10px;
@@ -505,7 +511,12 @@ margin: 4px;
 }
 
  @media only screen and (min-width:600px) and (max-width:768px) {
-  
+    .portfolio .row {
+        margin: 5px;
+        margin-top: 2px;
+        margin-bottom: 30px;
+        margin-left: 54px;
+    }
    
     .about{
     .para3{
@@ -516,8 +527,10 @@ margin: 4px;
    }
    
    
-   
     .portfolio{
+
+
+        
         IMG{
             // margin-left: -69px;
             display: flex;
@@ -548,6 +561,14 @@ margin: 4px;
     }
 
    }
+   .footer .ico {
+    margin-top: 5px;
+    margin-left: 19px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
 
 .footer{
   
@@ -652,6 +673,16 @@ margin: 4px;
 //       }
 //   }
   @media screen and (min-width:912px) and (max-width:1024px) {
+
+    .banner {
+        background-color: #1BBC9B;
+        height: 61vh;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
   #myNav{
     .overlay{
 
@@ -722,7 +753,12 @@ margin-right: -254px;
         margin-left: 274px;
     }  
 }
-
+.portfolio .row {
+    margin: 5px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    margin-left: 104px;
+}
 
   }
   
