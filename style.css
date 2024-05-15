@@ -12,6 +12,10 @@
   font-family: coco;
   src: url(Montserrat-Regular.ttf);
 }
+body {
+  overflow-x: hidden;
+}
+
 .navigation {
   font-family: "coco", Montserrat;
   display: flex;
@@ -22,11 +26,18 @@
   width: 100%;
   color: white;
 }
+.navigation .para1 {
+  margin-left: 185px;
+}
 .navigation .links {
   font-family: "coco", Montserrat;
   color: white;
   text-decoration: none;
   margin-right: 60px;
+}
+
+.navbar #a {
+  margin-left: 179px;
 }
 
 .banner {
@@ -42,6 +53,7 @@
   width: 70px;
   border: 2px solid white;
   margin-right: 10px;
+  margin-bottom: 9px;
 }
 .banner span {
   display: inline-block;
@@ -53,6 +65,7 @@
   width: 70px;
   border: 2px solid white;
   margin-left: 10px;
+  margin-bottom: 9px;
 }
 .banner .bannerimage {
   margin-top: 60px;
@@ -82,6 +95,10 @@
   margin: 20px;
 }
 
+.portfolio {
+  position: relative;
+  top: 59px;
+}
 .portfolio h2 {
   display: flex;
   justify-content: center;
@@ -101,6 +118,7 @@
   width: 70px;
   border: 2px solid black;
   margin-right: 10px;
+  margin-bottom: 9px;
 }
 .portfolio span {
   display: inline-block;
@@ -114,27 +132,31 @@
   width: 70px;
   border: 2px solid black;
   margin-left: 10px;
+  margin-bottom: 9px;
 }
 .portfolio img {
-  height: 37vh;
+  height: 42vh;
 }
 .portfolio .pot-head {
   margin-top: 50px;
 }
 
 .about {
+  margin-top: 123px;
   background-color: #1BBC9B;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: white;
+  padding: 39px;
 }
 .about .sline5 {
   width: 70px;
   border: 2px solid white;
   margin-right: 10px;
   height: 2px;
+  margin-bottom: -5px;
 }
 .about span {
   display: inline-block;
@@ -150,6 +172,7 @@
   border: 2px solid white;
   margin-left: 10px;
   height: 2px;
+  margin-bottom: -5px;
 }
 .about .para2 {
   font-family: "coco", Montserrat;
@@ -157,7 +180,6 @@
 }
 .about .para3 {
   font-family: "coco", Montserrat;
-  width: 100%;
   margin: 20px;
 }
 .about .about-head {
@@ -171,6 +193,12 @@
   margin-bottom: 20px;
 }
 
+.contact .btn-success {
+  margin-top: 25px;
+}
+.contact .forms {
+  width: 662px;
+}
 .contact h2 {
   font-family: "coco", Montserrat;
   text-align: center;
@@ -196,11 +224,7 @@
   border: 2px solid black;
   margin-left: 10px;
   height: 2px;
-}
-.contact hr {
-  width: 500px;
-  height: 12px;
-  color: #000;
+  margin-bottom: 9px;
 }
 .contact .con {
   font-family: "coco", Montserrat;
@@ -336,19 +360,24 @@
     margin: 0px;
     margin-top: 20px;
   }
-  .about .btn {
-    margin-bottom: 50px;
-    margin-top: 40px;
-  }
   .footer {
     margin: 0px;
     width: 98%;
   }
   .footer .all {
     margin: 4px;
+    padding-left: 61px;
   }
   .footer .all .lolo {
     margin-left: 10px;
+  }
+  .contact .forms {
+    width: 234px;
+    margin-left: 50px;
+  }
+  .btn-success {
+    margin-top: 25px;
+    margin-left: 60px;
   }
   .contact .kiki {
     margin-top: 20px;
@@ -362,11 +391,14 @@
     margin-bottom: 20px;
     margin-left: 15px;
   }
-  .contact hr {
-    width: 300px;
-  }
   .bot {
     padding: 13px;
+  }
+  .lies {
+    margin-left: 7px;
+  }
+  .navigation .para1 {
+    margin-left: -13px;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -386,6 +418,9 @@
     justify-content: center;
     flex-direction: column;
     height: 11vh;
+  }
+  .contact .forms {
+    width: 507px;
   }
   .contact .con {
     margin-left: 145px;

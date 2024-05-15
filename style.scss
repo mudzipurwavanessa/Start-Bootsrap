@@ -13,9 +13,14 @@
     src: url(Montserrat-Regular.ttf);
 }
 
-
+body{
+    overflow-x: hidden;
+}
 .navigation{
-   
+   .para1{
+    margin-left: 185px;
+
+   }
     font-family: "coco", Montserrat;
     display: flex;
     justify-content: space-around;
@@ -37,7 +42,11 @@
 
 }
  
-
+.navbar{
+    #a{
+        margin-left: 179px;
+    }
+}
 .banner{
     background-color:#1BBC9B;
     height: 86vh;
@@ -55,6 +64,7 @@
         width: 70px;
         border: 2px solid  white;
         margin-right: 10px;
+        margin-bottom: 9px;
         
     }
 
@@ -69,6 +79,7 @@
         width: 70px;
         border:2px solid white ;
         margin-left: 10px;
+        margin-bottom: 9px;
 
     }
 
@@ -82,7 +93,7 @@
 .para1{
     font-family: "coco", Montserrat;
     margin: 20px;
-
+  
 }
 .head{
     font-family: "coco", Montserrat;
@@ -105,8 +116,10 @@ img{
 }
 
 }
+
 .portfolio{
-    
+    position: relative;
+    top: 59px;
     h2{
         display: flex;
         justify-content: center;
@@ -130,6 +143,7 @@ img{
         width: 70px;
         border: 2px solid  black;
         margin-right: 10px;
+        margin-bottom: 9px;
         
     }
 
@@ -148,11 +162,12 @@ img{
         width: 70px;
         border:2px solid black ;
         margin-left: 10px;
+        margin-bottom: 9px;
 
     }
 
     img{
-        height: 37vh;
+        height: 42vh;
     }
     .pot-head{
         margin-top: 50px;
@@ -160,18 +175,21 @@ img{
     
 }
 .about{
+    margin-top: 123px;
    background-color: #1BBC9B;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: white;
+    padding: 39px;
 
     .sline5{
         width: 70px;
         border: 2px solid white;
         margin-right: 10px;
         height: 2px;
+        margin-bottom: -5px;
         
     }
 
@@ -193,19 +211,22 @@ img{
         border:2px solid white ;
         margin-left: 10px;
         height: 2px;
+        margin-bottom: -5px;
 
     }
 
     .para2{
         font-family: "coco", Montserrat;
          margin: 20px;
+        //  width: 458px;
         
 
     }
     .para3{
         font-family: "coco", Montserrat;
-        width: 100%;
+        // width: 458px;
         margin: 20px;
+        
     }
 
     .about-head{
@@ -222,7 +243,13 @@ img{
 
 }
 .contact{
-   
+
+    .btn-success {
+        margin-top: 25px;
+    }
+   .forms{
+    width: 662px;
+   }
     h2{
         font-family: "coco", Montserrat;
     text-align: center;
@@ -253,16 +280,17 @@ span{
     border:2px solid black ;
     margin-left: 10px;
     height: 2px;
+    margin-bottom: 9px;
 
 }
 
 
    
-hr{
-    width: 500px;
-height: 12px;
-color: #000;
-}
+// hr{
+//     width: 500px;
+// height: 12px;
+// color: #000;
+// }
 .con{
     font-family: "coco", Montserrat;
     margin-left: 240px;
@@ -469,18 +497,14 @@ margin: 0px;
             //     display: flex;
             // }
         
-.btn{
-    margin-bottom: 50px;
-    margin-top: 40px;
-}
+
 }
 .footer{
   
     margin: 0px;
     .all{
-
-        
-margin: 4px;
+        margin: 4px;
+        padding-left: 61px;
 .lolo{
     margin-left: 10px;
 }
@@ -488,7 +512,17 @@ margin: 4px;
     }
     width: 98%;
 }
+.contact .forms {
+    width: 234px;
+    margin-left: 50px;
+}
+
+.btn-success {
+    margin-top: 25px;
+    margin-left: 60px;
+}
  .contact{
+    
     .kiki{
         margin-top: 20px;
         margin-left: -60px;
@@ -501,13 +535,17 @@ margin: 4px;
         margin-bottom: 20px;
         margin-left: 15px;
     }
-    hr{
-        width: 300px;
-    }
+   
  }
  .bot{
     padding: 13px;
  }
+ .lies {
+    margin-left: 7px;
+}
+.navigation .para1 {
+    margin-left: -13px;
+}
 }
 
  @media only screen and (min-width:600px) and (max-width:768px) {
@@ -553,6 +591,10 @@ margin: 4px;
         //     display: none;
         // }
  }
+
+ .contact .forms {
+    width: 507px;
+}
  .contact{
 
     .con{
