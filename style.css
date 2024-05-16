@@ -3,9 +3,18 @@
   padding: 0;
 }
 
+.navigation.scrolled {
+  background-color: #818181;
+  opacity: 100%;
+}
+
+.navigation.scrolled.nav a {
+  color: #1BBC9B;
+}
+
 .fa-star:before {
   content: "\f005";
-  font-size: 34px;
+  font-size: 30px;
 }
 
 @font-face {
@@ -297,7 +306,7 @@ body {
     padding: 0px;
   }
   .navigation {
-    width: 98%;
+    width: 100%;
     font-size: 20;
   }
   .navigation .para1 {
@@ -308,7 +317,7 @@ body {
     display: none;
   }
   .banner {
-    width: 98%;
+    width: 100%;
   }
   .banner .text {
     font-size: 20px;
@@ -342,7 +351,7 @@ body {
   }
   .about {
     margin-top: 130px;
-    width: 98%;
+    width: 100%;
   }
   .about .row {
     margin-left: 60px;
@@ -362,7 +371,7 @@ body {
   }
   .footer {
     margin: 0px;
-    width: 98%;
+    width: 100%;
   }
   .footer .all {
     margin: 4px;
@@ -378,6 +387,12 @@ body {
   .btn-success {
     margin-top: 25px;
     margin-left: 60px;
+  }
+  .about .btn {
+    font-family: "coco", Montserrat;
+    border: 2px solid white;
+    color: white;
+    margin-top: 42px;
   }
   .contact .kiki {
     margin-top: 20px;
